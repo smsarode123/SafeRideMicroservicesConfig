@@ -9,8 +9,11 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class InsuranceMicroservicesApplication {
 
 	public static void main(String[] args) {
+		
+		
 		System.out.println("This is Eureka Server");
 		SpringApplication.run(InsuranceMicroservicesApplication.class, args);
+		
+		
 	}
-
 }
