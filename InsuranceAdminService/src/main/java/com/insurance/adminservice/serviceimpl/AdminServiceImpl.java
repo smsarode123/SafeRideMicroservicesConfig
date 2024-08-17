@@ -15,6 +15,15 @@ public class AdminServiceImpl implements AdminServiceI {
 	@Autowired private EmployeeRepository employeeRepository;
 	
 	@Autowired private ServiceCenterRepository serviceCenterRepository;
+
+	@Override
+	public void deleteEmployee(int employeeId) {
+		
+			
+			employeeRepository.deleteById(employeeId);
+			
+		
+	}
 	
 	
 
